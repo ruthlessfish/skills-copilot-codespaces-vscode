@@ -1,4 +1,4 @@
-// create a web server that listens for incoming requests
+// Create web server
 const express = require('express');
 const bodyParser = require('body-parser');
 const { randomBytes } = require('crypto');
