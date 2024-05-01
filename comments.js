@@ -71,4 +71,8 @@ app.post('/events', async (req, res) => {
       data: {
         id,
         status,
-        postId
+        postId, 
+        content: comment.content
+      }
+    });
+}});
